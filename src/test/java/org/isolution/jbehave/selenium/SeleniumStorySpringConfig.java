@@ -1,6 +1,6 @@
 package org.isolution.jbehave.selenium;
 
-import org.isolution.jbehave.BaseSeleniumJBehaveSpringConfig;
+import org.isolution.jbehave.web.selenium.BaseSeleniumJBehaveSpringConfig;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;

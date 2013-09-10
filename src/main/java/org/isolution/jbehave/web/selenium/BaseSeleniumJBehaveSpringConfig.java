@@ -1,4 +1,4 @@
-package org.isolution.jbehave;
+package org.isolution.jbehave.web.selenium;
 
 import org.isolution.jbehave.web.selenium.LocalWebDriverProvider;
 import org.isolution.jbehave.web.selenium.WebDriverHtmlWithScreenshotOutput;
@@ -118,7 +118,6 @@ public class BaseSeleniumJBehaveSpringConfig {
         embedder.useStepsFactory(stepsFactory());
         embedder.embedderControls()
                 .doIgnoreFailureInView(false)
-                        // don't throw an exception when a story failed
                 .doIgnoreFailureInStories(false)
                 .doVerboseFailures(true)
                 .useThreads(1);

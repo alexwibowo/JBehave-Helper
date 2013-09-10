@@ -1,6 +1,6 @@
 package org.isolution.jbehave.selenium;
 
-import org.isolution.jbehave.SeleniumSpringBasedStory;
+import org.isolution.jbehave.web.selenium.SeleniumSpringBasedStory;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
 

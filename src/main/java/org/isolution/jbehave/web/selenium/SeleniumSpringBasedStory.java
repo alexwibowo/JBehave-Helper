@@ -1,4 +1,4 @@
-package org.isolution.jbehave;
+package org.isolution.jbehave.web.selenium;
 
 import org.jbehave.core.embedder.Embedder;
 import org.junit.Test;
