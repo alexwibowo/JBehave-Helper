@@ -10,7 +10,7 @@
     <groupId>com.github.alexwibowo</groupId>
     <artifactId>jbehave-helper</artifactId>
     <packaging>jar</packaging>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <inceptionYear>2012</inceptionYear>
 
     <developers>
