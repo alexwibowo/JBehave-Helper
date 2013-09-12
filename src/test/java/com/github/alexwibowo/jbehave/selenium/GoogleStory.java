@@ -1,6 +1,6 @@
-package org.isolution.jbehave.selenium;
+package com.github.alexwibowo.jbehave.selenium;
 
-import org.isolution.jbehave.web.selenium.SeleniumSpringBasedStory;
+import com.github.alexwibowo.jbehave.web.selenium.SeleniumSpringBasedStory;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
@@ -16,6 +16,6 @@ public class GoogleStory extends SeleniumSpringBasedStory {
 
     @Override
     protected List<String> getStoryPaths() {
-        return asList("org/isolution/jbehave/selenium/google.story");
+        return asList("com/github/alexwibowo/jbehave/selenium/google.story");
     }
 }

@@ -1,7 +1,5 @@
-package org.isolution.jbehave.web.selenium;
+package com.github.alexwibowo.jbehave.web.selenium;
 
-import org.isolution.jbehave.web.selenium.LocalWebDriverProvider;
-import org.isolution.jbehave.web.selenium.WebDriverHtmlWithScreenshotOutput;
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.configuration.spring.SpringStoryControls;
 import org.jbehave.core.configuration.spring.SpringStoryReporterBuilder;

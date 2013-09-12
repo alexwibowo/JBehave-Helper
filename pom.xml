@@ -1,7 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.isolution</groupId>
+    <groupId>com.github.alexwibowo</groupId>
     <artifactId>jbehave-helper</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
@@ -22,9 +29,13 @@
         </license>
     </licenses>
 
+
     <scm>
-        <url>scm:git:https://github.com/alexwibowo/JBehave-Helper.git</url>
+        <connection>scm:git:git@github.com:alexwibowo/JBehave-Helper.git</connection>
+        <developerConnection>scm:git:git@github.com:alexwibowo/JBehave-Helper.git</developerConnection>
+        <url>git@github.com:alexwibowo/JBehave-Helper.git</url>
     </scm>
+
 
     <!-- version control for commonly used libraries -->
     <properties>

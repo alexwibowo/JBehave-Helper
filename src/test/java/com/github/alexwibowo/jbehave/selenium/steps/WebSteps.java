@@ -1,7 +1,7 @@
-package org.isolution.jbehave.selenium.steps;
+package com.github.alexwibowo.jbehave.selenium.steps;
 
-import org.isolution.jbehave.Steps;
-import org.isolution.jbehave.web.selenium.BaseWebSteps;
+import com.github.alexwibowo.jbehave.Steps;
+import com.github.alexwibowo.jbehave.web.selenium.BaseWebSteps;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.openqa.selenium.By;

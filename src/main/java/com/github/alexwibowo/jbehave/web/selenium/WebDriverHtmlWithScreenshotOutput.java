@@ -1,4 +1,4 @@
-package org.isolution.jbehave.web.selenium;
+package com.github.alexwibowo.jbehave.web.selenium;
 
 import org.apache.commons.io.IOUtils;
 import org.jbehave.core.failures.UUIDExceptionWrapper;

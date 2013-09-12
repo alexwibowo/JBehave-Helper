@@ -1,4 +1,4 @@
-package org.isolution.jbehave;
+package com.github.alexwibowo.jbehave;
 
 import org.springframework.stereotype.Component;
 
